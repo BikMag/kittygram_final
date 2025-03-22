@@ -30,7 +30,7 @@ services:
     image: denbikmaev/kittygram_gateway:latest
     env_file: .env
     ports:
-      - 9000:80
+      - 80:80
     volumes:
       - static:/static
       - media:/media
