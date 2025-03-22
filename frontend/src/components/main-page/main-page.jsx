@@ -42,14 +42,6 @@ export const MainPage = ({ queryPage, setQueryPage, extraClass = "" }) => {
 
   return (
     <section className={`${styles.content} ${extraClass}`}>
-      <div style={{
-        color: "red", marginTop: "1rem",
-        backgroundColor: "pink", padding: "0.5em",
-        borderRadius: "5px", border: "solid thin red"
-      }}>
-        Внимание, проводятся технические работы на сайте!
-        Берегите своих котиков!
-      </div>
       <h2
         className={`text text_type_h2 text_color_primary mt-25 mb-20 ${styles.title}`}
       >
